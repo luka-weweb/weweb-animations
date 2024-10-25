@@ -9,11 +9,6 @@ export default {
   props: {
     content: { type: Object, required: true },
   },
-  data() {
-    return {
-      showElement: true,
-    };
-  },
   computed: {
     animationName() {
       return this.content.animation === "slide-in"
